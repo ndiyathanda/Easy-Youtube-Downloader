@@ -6,7 +6,7 @@ queued_url = []
 
 def show_queue():
     msg_splash = tkinter.Tk()
-    root.title("MSG Splash")
+    msg_splash.title("MSG Splash")
     for x in range(len(queued_url)):
         l = tkinter.Label(msg_splash, text=queued_url[x])
         l.pack()
@@ -15,7 +15,7 @@ def show_queue():
 
 def clear_queue():
     queued_url.clear()
-    root.title("MSG Splash")
+    msg_splash.title("MSG Splash")
     msg_splash = tkinter.Tk()
     l = tkinter.Label(msg_splash, text='Queue cleared')
     l.pack()
@@ -26,7 +26,7 @@ def add_to_queued_downl():
     url = entry.get()
     queued_url.append(url)
     msg_splash = tkinter.Tk()
-    root.title("MSG Splash")
+    msg_splash.title("MSG Splash")
     l = tkinter.Label(msg_splash, text="Url added to queue!")
     l.pack()
     m = tkinter.Button(msg_splash, text='Ok', command=msg_splash.destroy)
@@ -41,7 +41,7 @@ def queued_downl():
         print(video.title)
         video.download(path)
         msg_splash = tkinter.Tk()
-        root.title("MSG Splash")
+        msg_splash.title("MSG Splash")
         l = tkinter.Label(msg_splash, text="Downloaded to " + path + "\n" + video.title)
         l.pack()
         m = tkinter.Button(msg_splash, text='Ok', command=msg_splash.destroy)
@@ -58,6 +58,7 @@ def downl_vid():
     print(video.title)
     video.download(path)
     msg_splash = tkinter.Tk()
+    msg_splash.title("MSG Splash")
     l = tkinter.Label(msg_splash, text="Downloaded to " + path + "\n" + video.title)
     l.pack()
     m = tkinter.Button(msg_splash, text='Ok', command=msg_splash.destroy)
