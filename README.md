@@ -1,7 +1,7 @@
 ## Easy-Youtube-Downloader
 
 ### Screenshot from app
-![](ss2.png)
+![](ss0.png)
 
 ## Dependencies
 * Pytube
