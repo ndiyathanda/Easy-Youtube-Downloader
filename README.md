@@ -1,6 +1,8 @@
-# Easy-Youtube-Downloader
+##Easy-Youtube-Downloader
 poor youtube downloader
-##Screenshot from app
+
+###Screenshot from app
 ![](ss.png)
+
 ## Dependencies
 * Pytube
