@@ -1,5 +1,4 @@
-##Easy-Youtube-Downloader
-poor youtube downloader
+## Easy-Youtube-Downloader
 
 ### Screenshot from app
 ![](ss.png)
