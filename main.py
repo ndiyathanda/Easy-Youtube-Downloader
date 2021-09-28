@@ -68,6 +68,7 @@ root = tkinter.Tk()
 root['background']='grey'
 root.title("YT Downloader")
 root.geometry('302x150')
+root.resizable(0, 0)
 
 l = tkinter.Label(root, text='Easy Youtube Downloader 0.1 by ndi', bg='grey')
 l.pack()
