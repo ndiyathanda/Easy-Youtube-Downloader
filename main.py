@@ -1,3 +1,5 @@
+#Youtube downloader version 0.2 by ndiyathanda
+#https://github.com/ndiyathanda/Easy-Youtube-Downloader
 import tkinter
 import pytube
 import time
