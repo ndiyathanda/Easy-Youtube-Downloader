@@ -5,3 +5,6 @@
 
 ## Dependencies
 * Pytube
+
+# Future plans
+I will rework this app soon
